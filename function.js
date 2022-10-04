@@ -39,8 +39,8 @@ let amount = 500, pin = 1234, acctNum = 123456789
 const cashDraw = (amount, pin, acctNum) => {
     if ((amount <= 1000) || (pin == 1234)) {
        condsole.log(`pay ${acctNum} the sum of ${amount}`)
-    else {
-        console.log (`pin is incorret`);
+    }else {
+        console.log (`your pin is incorret`);
 
      }
     }
